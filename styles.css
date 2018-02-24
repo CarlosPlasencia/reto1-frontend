@@ -1,0 +1,74 @@
+.header-blog{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-blog{
+    font-size: 35px;
+}
+
+.section-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-blog{
+    background-color: #FE642E;
+    width: 15%;
+}
+
+.main-blog{
+    background-color: rgb(188, 223, 94);
+    width: 85%;
+    padding: 10px 20px;
+}
+
+.footer-blog{
+    background-color: #F781F3;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-articulo{
+    background-color: #F781d1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-articulo{
+    background-color: #DBA901;
+}
+
+.titulo-articulo{
+    background-color: #FAAC58;
+    width: 70%;
+}
+
+.fecha-articulo{
+    background-color: #58FAF4;
+}
+
+.comentario-container{
+    background-color: #80FF00;
+}
+
+.comentario-fecha{
+    background-color: #F781d1;
+}
+
+.comentario-nuevo{
+    background-color: #FFFF00;
+}
+
+.space-border{
+    margin: 5px;
+    border-radius: 15px;
+}
